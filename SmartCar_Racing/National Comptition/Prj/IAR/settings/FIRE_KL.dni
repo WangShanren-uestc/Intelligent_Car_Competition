@@ -1,0 +1,171 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=132413452
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[array_types]
+Fmt0=uint8[80]	4	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Symbol0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=Ch0
+Symbol0=0 4 1
+Title1=Ch1
+Symbol1=0 4 1
+Title2=Ch2
+Symbol2=0 4 1
+Title3=Ch3
+Symbol3=0 4 1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\legend\Desktop\old0.21\App\main.c" ""
+A1=_ "C:\Users\legend\Desktop\old0.21\Chip\inc\MKL_dma.h" ""
+A2=_ "C:\Users\legend\Desktop\old0.21\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A3=_ "C:\Users\legend\Desktop\pro4.1\Pro3\App\main.c" ""
+A4=_ "C:\Users\legend\Desktop\pro4.1\Pro3\Chip\inc\MKL_dma.h" ""
+A5=_ "C:\Users\legend\Desktop\pro4.1\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A6=_ "C:\Users\legend\Desktop\pro4.2\Pro3\App\main.c" ""
+A7=_ "C:\Users\legend\Desktop\pro4.2\Pro3\Chip\inc\MKL_dma.h" ""
+A8=_ "C:\Users\legend\Desktop\pro4.2\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A9=_ "C:\Users\legend\Desktop\pro4.3\Pro3\App\main.c" ""
+A10=_ "C:\Users\legend\Desktop\pro4.3\Pro3\Chip\inc\MKL_dma.h" ""
+A11=_ "C:\Users\legend\Desktop\pro4.3\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A12=_ "C:\Users\legend\Desktop\pro4.4\Pro3\App\main.c" ""
+A13=_ "C:\Users\legend\Desktop\pro4.4\Pro3\Chip\inc\MKL_dma.h" ""
+A14=_ "C:\Users\legend\Desktop\pro4.4\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A15=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi+fivepoint\Pro3\App\main.c" ""
+A16=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi+fivepoint\Pro3\Chip\inc\MKL_dma.h" ""
+A17=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi+fivepoint\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A18=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi+qiehuan+fivepoint\Pro3\App\main.c" ""
+A19=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi+qiehuan+fivepoint\Pro3\Chip\inc\MKL_dma.h" ""
+A20=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi+qiehuan+fivepoint\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A21=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi\Pro3\App\main.c" ""
+A22=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi\Pro3\Chip\inc\MKL_dma.h" ""
+A23=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A24=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi_完整版1+qiehuan+fivepoint+xiaos\Pro3\App\main.c" ""
+A25=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi_完整版1+qiehuan+fivepoint+xiaos\Pro3\Chip\inc\MKL_dma.h" ""
+A26=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi_完整版1+qiehuan+fivepoint+xiaos\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A27=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi_完整版1+qiehuan+fivepoint\Pro3\App\main.c" ""
+A28=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi_完整版1+qiehuan+fivepoint\Pro3\Chip\inc\MKL_dma.h" ""
+A29=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu+renzi_完整版1+qiehuan+fivepoint\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A30=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu\Pro3\App\main.c" ""
+A31=_ "C:\Users\legend\Desktop\pro4.5+zhangaiwu\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A32=_ "C:\Users\legend\Desktop\pro4\Pro3\App\main.c" ""
+A33=_ "C:\Users\legend\Desktop\pro4\Pro3\Chip\inc\MKL_dma.h" ""
+A34=_ "C:\Users\legend\Desktop\pro4\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A35=_ "C:\Users\legend\Desktop\test\Pro3\App\main.c" ""
+A36=_ "C:\Users\legend\Desktop\test\Pro3\Chip\inc\MKL_dma.h" ""
+A37=_ "C:\Users\legend\Desktop\test\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A38=_ "C:\Users\legend\Desktop\省赛程序2.2\省赛程序\App\main.c" ""
+A39=_ "C:\Users\legend\Desktop\省赛程序2.2\省赛程序\Chip\inc\MKL_dma.h" ""
+A40=_ "C:\Users\legend\Desktop\省赛程序2.2\省赛程序\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A41=_ "C:\Users\legend\Desktop\新算法+数据处理\App\main.c" ""
+A42=_ "C:\Users\legend\Desktop\新算法+数据处理\Chip\inc\MKL_dma.h" ""
+A43=_ "C:\Users\legend\Desktop\新算法+数据处理\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A44=_ "G:\edu\飞思卡尔\kl26\nation\Test0.1\Pro3\App\main.c" ""
+A45=_ "G:\edu\飞思卡尔\kl26\nation\Test0.1\Pro3\Chip\inc\MKL_dma.h" ""
+A46=_ "G:\edu\飞思卡尔\kl26\nation\Test0.1\Pro3\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A47=_ "G:\edu\飞思卡尔\kl26\test\old0.21\App\main.c" ""
+A48=_ "G:\edu\飞思卡尔\kl26\test\old0.21\Chip\inc\MKL_dma.h" ""
+A49=_ "G:\edu\飞思卡尔\kl26\test\old0.21\Lib\CMSIS\Inc\core_cm0plus.h" ""
+Count=50
+SuppressDialog=0

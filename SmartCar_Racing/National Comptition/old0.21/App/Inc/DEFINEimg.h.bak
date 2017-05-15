@@ -1,0 +1,13 @@
+#ifndef __DEFINEIMG_H__
+#define __DEFINEIMG_H__
+
+
+#define ROW 60               
+#define COL 80
+#define DMA_COUNT   COL/8
+
+#define MID COL/2
+
+
+
+#endif  //__DEFINEIMG_H__

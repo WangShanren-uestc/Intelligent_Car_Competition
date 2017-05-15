@@ -1,0 +1,1040 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.70.1.5641/W32 for ARM               24/Mar/2015  09:49:59 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Exe\FIRE_ #
+#                    KL.out                                                   #
+#    Map file     =  D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\List\FIRE #
+#                    _KL.map                                                  #
+#    Command line =  D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\darw. #
+#                    o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\FIR #
+#                    E_ASCII.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug #
+#                    \Obj\FIRE_camera.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\ #
+#                    IAR\Debug\Obj\FIRE_key.o D:\程序备份\国赛\国赛4.1\COL_16 #
+#                    0\Prj\IAR\Debug\Obj\FIRE_key_event.o                     #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\FIRE_ #
+#                    LCD.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj #
+#                    \FIRE_LCD_CH.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\ #
+#                    Debug\Obj\FIRE_LCD_ST7735R.o                             #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\FIRE_ #
+#                    LCD_ST7735S.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\D #
+#                    ebug\Obj\FIRE_LED.o D:\程序备份\国赛\国赛4.1\COL_160\Prj #
+#                    \IAR\Debug\Obj\FIRE_MKL_conf.o                           #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\FIRE_ #
+#                    MMA7455.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug #
+#                    \Obj\FIRE_NRF24L0.o D:\程序备份\国赛\国赛4.1\COL_160\Prj #
+#                    \IAR\Debug\Obj\FIRE_NRF24L0_MSG.o                        #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\FIRE_ #
+#                    OV7725_Eagle.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\ #
+#                    Debug\Obj\FIRE_SCCB.o D:\程序备份\国赛\国赛4.1\COL_160\P #
+#                    rj\IAR\Debug\Obj\FIRE_TSL1401.o                          #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\FIRE_ #
+#                    UI_VAR.o D:\程序备份\国赛\国赛4.1\COL_160\Lib\CMSIS\iar_ #
+#                    cortexM0plusl_math.a D:\程序备份\国赛\国赛4.1\COL_160\Pr #
+#                    j\IAR\Debug\Obj\image_2.o D:\程序备份\国赛\国赛4.1\COL_1 #
+#                    60\Prj\IAR\Debug\Obj\main.o                              #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\misc. #
+#                    o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\MKL #
+#                    _adc.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Ob #
+#                    j\MKL_dac.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Deb #
+#                    ug\Obj\MKL_dma.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IA #
+#                    R\Debug\Obj\MKL_flash.o D:\程序备份\国赛\国赛4.1\COL_160 #
+#                    \Prj\IAR\Debug\Obj\MKL_gpio.o                            #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\MKL_i #
+#                    2c.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\ #
+#                    MKL_it.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\ #
+#                    Obj\MKL_lptmr.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR #
+#                    \Debug\Obj\MKL_mcg.o D:\程序备份\国赛\国赛4.1\COL_160\Pr #
+#                    j\IAR\Debug\Obj\MKL_PIT.o D:\程序备份\国赛\国赛4.1\COL_1 #
+#                    60\Prj\IAR\Debug\Obj\MKL_port.o                          #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\MKL_s #
+#                    pi.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\ #
+#                    MKL_SysTick.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\D #
+#                    ebug\Obj\MKL_TPM.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\ #
+#                    IAR\Debug\Obj\MKL_uart.o D:\程序备份\国赛\国赛4.1\COL_16 #
+#                    0\Prj\IAR\Debug\Obj\MKL_wdog.o                           #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\moto. #
+#                    o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\mot #
+#                    ofix.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Ob #
+#                    j\motoII.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debu #
+#                    g\Obj\oled.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\De #
+#                    bug\Obj\startup_MKL.o D:\程序备份\国赛\国赛4.1\COL_160\P #
+#                    rj\IAR\Debug\Obj\system_MKL.o                            #
+#                    D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\test. #
+#                    o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\too #
+#                    l.o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj\v #
+#                    ectors.o -o D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Deb #
+#                    ug\Exe\FIRE_KL.out --map D:\程序备份\国赛\国赛4.1\COL_16 #
+#                    0\Prj\IAR\Debug\List\FIRE_KL.map --config                #
+#                    "D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\config         #
+#                    files\256KB_Pflash.icf" --semihosting --entry            #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00040000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fffe410 to 0x20006000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"P1", part 1 of 2:                             0x0
+  .rodata              const    0x00000410     0x0  zero_init3.o [5]
+  CodeRelocate                  0x00000410     0x0  <Block>
+
+"A2":                                          0x8
+  .noinit              ro code  0x00000410     0x8  startup_MKL.o [1]
+                              - 0x00000418     0x8
+
+"P1", part 2 of 2:                          0xcca4
+  .text                ro code  0x00000418  0x4f64  image_2.o [1]
+  .text                ro code  0x0000537c    0x32  DblCmpGe.o [4]
+  .text                ro code  0x000053ae    0x32  DblCmpLe.o [4]
+  .text                ro code  0x000053e0    0x52  DblToI32.o [4]
+  .text                ro code  0x00005432    0x14  memset.o [3]
+  .text                ro code  0x00005446    0xe0  I32DivModFast.o [5]
+  .text                ro code  0x00005526     0x8  abs.o [3]
+  .text                ro code  0x0000552e    0x2a  zero_init3.o [5]
+  .text                ro code  0x00005558    0x54  ABImemset.o [5]
+  .text                ro code  0x000055ac   0x818  oled.o [1]
+  .text                ro code  0x00005dc4    0x36  I32ToFlt.o [4]
+  .text                ro code  0x00005dfa   0x120  FltAddSub.o [4]
+  .text                ro code  0x00005f1a    0xaa  FltDiv.o [4]
+  .text                ro code  0x00005fc4    0x20  FltCmpEq.o [4]
+  .text                ro code  0x00005fe4    0xb4  FltMul.o [4]
+  .text                ro code  0x00006098    0x3a  FltToS32.o [4]
+  .rodata              const    0x000060d2     0x2  tool.o [1]
+  .text                ro code  0x000060d4    0x34  I32ToDbl.o [4]
+  .text                ro code  0x00006108   0x184  DblMul.o [4]
+  .text                ro code  0x0000628c   0x1b4  DblAddSub.o [4]
+  .text                ro code  0x00006440    0x62  DblToFlt.o [4]
+  .text                ro code  0x000064a4    0x58  darw.o [1]
+  .text                ro code  0x000064fc    0x32  FltToDbl.o [4]
+  .text                ro code  0x0000652e    0xc2  DblDiv.o [4]
+  .text                ro code  0x000065f0   0x2a0  test.o [1]
+  .text                ro code  0x00006890  0x1024  motoII.o [1]
+  .text                ro code  0x000078b4     0x2  IntDivZer.o [5]
+  .text                ro code  0x000078b8   0x2b0  MKL_i2c.o [1]
+  .text                ro code  0x00007b68    0x54  MKL_lptmr.o [1]
+  .text                ro code  0x00007bbc   0x200  FIRE_key.o [1]
+  .text                ro code  0x00007dbc    0xc4  MKL_PIT.o [1]
+  .text                ro code  0x00007e80    0xd8  MKL_SysTick.o [1]
+  .text                ro code  0x00007f58   0x1a0  MKL_gpio.o [1]
+  .text                ro code  0x000080f8   0x1f0  MKL_adc.o [1]
+  .text                ro code  0x000082e8    0xbe  sqrt.o [4]
+  .text                ro code  0x000083a8   0x418  MKL_TPM.o [1]
+  .text                ro code  0x000087c0    0x28  FltCmpGe.o [4]
+  .text                ro code  0x000087e8    0x54  FIRE_LED.o [1]
+  .text                ro code  0x0000883c    0x26  FltCmpLe.o [4]
+  .text                ro code  0x00008864   0x1a8  tool.o [1]
+  .text                ro code  0x00008a0c    0x5c  ABImemcpy.o [5]
+  .text                ro code  0x00008a68    0xa4  MKL_port.o [1]
+  .text                ro code  0x00008b0c    0x54  FIRE_MKL_conf.o [1]
+  .text                ro code  0x00008b60     0xc  iarEdom.o [5]
+  .text                ro code  0x00008b6c    0x26  FltToU32.o [4]
+  .text                ro code  0x00008b94    0x24  printf.o [3]
+  .text                ro code  0x00008bb8   0x338  MKL_uart.o [1]
+  .text                ro code  0x00008ef0    0x10  errno.o [3]
+  .text                ro code  0x00008f00   0xec6  xprintffull_nomb.o [3]
+  .text                ro code  0x00009dc6     0x2  xtls.o [3]
+  .text                ro code  0x00009dc8    0x14  strchr.o [5]
+  .text                ro code  0x00009ddc    0x10  strlen.o [5]
+  .text                ro code  0x00009dec    0x18  memchr.o [5]
+  .text                ro code  0x00009e04    0x6a  I64DivMod.o [5]
+  .text                ro code  0x00009e6e    0x44  xdnorm.o [4]
+  .text                ro code  0x00009eb4   0x11c  xdscale.o [4]
+  .text                ro code  0x00009fd0    0x68  localeconv.o [3]
+  .text                ro code  0x0000a038    0x20  div.o [3]
+  .text                ro code  0x0000a058     0x2  I64DivZer.o [5]
+  .data_init                    0x0000a05c   0x63c  <Block>
+    Initializer bytes  ro data  0x0000a05c   0x63c  <for .data-1> (used: 0x638)
+  .rodata              const    0x0000a698   0x5f0  oled.o [1]
+  .text                ro code  0x0000ac88   0x580  main.o [1]
+  .text                ro code  0x0000b208   0x534  FIRE_NRF24L0.o [1]
+  .text                ro code  0x0000b73c   0x128  moto.o [1]
+  .text                ro code  0x0000b864    0x8c  FIRE_NRF24L0_MSG.o [1]
+  .text                ro code  0x0000b8f0    0xd8  FIRE_OV7725_Eagle.o [1]
+  .text                ro code  0x0000b9c8   0x1d4  MKL_dma.o [1]
+  .text                ro code  0x0000bb9c    0xd0  misc.o [1]
+  .text                ro code  0x0000bc6c   0x35c  MKL_spi.o [1]
+  .text                ro code  0x0000bfc8   0x47e  FIRE_SCCB.o [1]
+  .text                ro code  0x0000c448   0x340  MKL_mcg.o [1]
+  .rodata              const    0x0000c788   0x228  oled.o [1]
+  .text                ro code  0x0000c9b0   0x184  system_MKL.o [1]
+  .text                ro code  0x0000cb34    0x20  MKL_wdog.o [1]
+  .rodata              const    0x0000cb54    0x80  MKL_i2c.o [1]
+  .rodata              const    0x0000cbd4    0x48  FIRE_NRF24L0_MSG.o [1]
+  .rodata              const    0x0000cc1c    0x40  MKL_SysTick.o [1]
+  .rodata              const    0x0000cc5c    0x3c  FIRE_MKL_conf.o [1]
+  .rodata              const    0x0000cc98    0x3c  MKL_adc.o [1]
+  .rodata              const    0x0000ccd4    0x3c  MKL_dma.o [1]
+  .rodata              const    0x0000cd10    0x3c  MKL_gpio.o [1]
+  .rodata              const    0x0000cd4c    0x3c  MKL_PIT.o [1]
+  .rodata              const    0x0000cd88    0x3c  MKL_spi.o [1]
+  .rodata              const    0x0000cdc4    0x3c  MKL_TPM.o [1]
+  .rodata              const    0x0000ce00    0x38  misc.o [1]
+  .text                ro code  0x0000ce38    0x28  data_init.o [5]
+  .rodata              const    0x0000ce60    0x24  FIRE_MKL_conf.o [1]
+  .rodata              const    0x0000ce84    0x24  FIRE_OV7725_Eagle.o [1]
+  .rodata              const    0x0000cea8    0x24  FIRE_OV7725_Eagle.o [1]
+  .iar.init_table      const    0x0000cecc    0x10  - Linker created -
+  .rodata              const    0x0000cedc    0x20  FIRE_OV7725_Eagle.o [1]
+  .text                ro code  0x0000cefc    0x1a  cmain.o [5]
+  .text                ro code  0x0000cf16     0x4  low_level_init.o [3]
+  .text                ro code  0x0000cf1a     0x8  exit.o [3]
+  .text                ro code  0x0000cf24     0xa  cexit.o [5]
+  .text                ro code  0x0000cf30    0x14  exit.o [6]
+  .rodata              const    0x0000cf44    0x18  FIRE_OV7725_Eagle.o [1]
+  .rodata              const    0x0000cf5c    0x18  FIRE_OV7725_Eagle.o [1]
+  .rodata              const    0x0000cf74    0x18  xprintffull_nomb.o [3]
+  .text                ro code  0x0000cf8c    0x16  xprout.o [3]
+  .text                ro code  0x0000cfa4    0x10  putchar.o [3]
+  .rodata              const    0x0000cfb4    0x14  FIRE_NRF24L0_MSG.o [1]
+  .rodata              const    0x0000cfc8    0x14  FIRE_OV7725_Eagle.o [1]
+  .rodata              const    0x0000cfdc     0xc  image_2.o [1]
+  .rodata              const    0x0000cfe8     0xc  image_2.o [1]
+  .rodata              const    0x0000cff4     0xc  moto.o [1]
+  .rodata              const    0x0000d000     0xc  oled.o [1]
+  .text                ro code  0x0000d00c     0xc  cstartup_M.o [5]
+  .rodata              const    0x0000d018     0x8  FIRE_NRF24L0.o [1]
+  .rodata              const    0x0000d020     0x8  image_2.o [1]
+  .rodata              const    0x0000d028     0x8  oled.o [1]
+  Initializer bytes    ro data  0x0000d030    0x8c  <for P2 s0>
+                              - 0x0000d0bc  0xcca4
+
+"P2", part 1 of 4:                           0x638
+  .data                         0x1fffe410   0x638  <Block>
+    .data-1                     0x1fffe410   0x638  <Init block>
+      .data            inited   0x1fffe410     0x8  FIRE_key.o [1]
+      .data            inited   0x1fffe418     0x4  FIRE_LED.o [1]
+      .data            inited   0x1fffe41c   0x1bc  FIRE_MKL_conf.o [1]
+      .data            inited   0x1fffe5d8     0x8  FIRE_NRF24L0.o [1]
+      .data            inited   0x1fffe5e0     0x8  FIRE_NRF24L0.o [1]
+      .data            inited   0x1fffe5e8    0x64  FIRE_OV7725_Eagle.o [1]
+      .data            inited   0x1fffe64c     0x1  FIRE_OV7725_Eagle.o [1]
+      .data            inited   0x1fffe650     0x4  image_2.o [1]
+      .data            inited   0x1fffe654     0x4  image_2.o [1]
+      .data            inited   0x1fffe658     0x4  image_2.o [1]
+      .data            inited   0x1fffe65c     0x4  image_2.o [1]
+      .data            inited   0x1fffe660     0x4  image_2.o [1]
+      .data            inited   0x1fffe664     0x4  image_2.o [1]
+      .data            inited   0x1fffe668     0x4  image_2.o [1]
+      .data            inited   0x1fffe66c     0x4  image_2.o [1]
+      .data            inited   0x1fffe670     0x4  image_2.o [1]
+      .data            inited   0x1fffe674     0x8  image_2.o [1]
+      .data            inited   0x1fffe67c     0x8  image_2.o [1]
+      .data            inited   0x1fffe684     0x8  image_2.o [1]
+      .data            inited   0x1fffe68c     0x4  image_2.o [1]
+      .data            inited   0x1fffe690     0x4  image_2.o [1]
+      .data            inited   0x1fffe694    0xe0  image_2.o [1]
+      .data            inited   0x1fffe774    0xe0  image_2.o [1]
+      .data            inited   0x1fffe854    0xe0  image_2.o [1]
+      .data            inited   0x1fffe934     0x4  main.o [1]
+      .data            inited   0x1fffe938     0x4  main.o [1]
+      .data            inited   0x1fffe93c     0x4  main.o [1]
+      .data            inited   0x1fffe940     0x4  main.o [1]
+      .data            inited   0x1fffe944     0x4  main.o [1]
+      .data            inited   0x1fffe948     0x4  main.o [1]
+      .data            inited   0x1fffe94c     0x4  main.o [1]
+      .data            inited   0x1fffe950     0x4  main.o [1]
+      .data            inited   0x1fffe954     0x4  MKL_adc.o [1]
+      .data            inited   0x1fffe958    0x14  MKL_gpio.o [1]
+      .data            inited   0x1fffe96c     0x8  MKL_i2c.o [1]
+      .data            inited   0x1fffe974    0x34  MKL_mcg.o [1]
+      .data            inited   0x1fffe9a8     0x4  MKL_mcg.o [1]
+      .data            inited   0x1fffe9ac    0x14  MKL_port.o [1]
+      .data            inited   0x1fffe9c0     0x8  MKL_spi.o [1]
+      .data            inited   0x1fffe9c8     0xc  MKL_TPM.o [1]
+      .data            inited   0x1fffe9d4     0xc  MKL_uart.o [1]
+      .data            inited   0x1fffe9e0     0x8  motoII.o [1]
+      .data            inited   0x1fffe9e8     0x8  motoII.o [1]
+      .data            inited   0x1fffe9f0     0x8  motoII.o [1]
+      .data            inited   0x1fffe9f8     0x4  motoII.o [1]
+      .data            inited   0x1fffe9fc     0x4  motoII.o [1]
+      .data            inited   0x1fffea00     0x4  motoII.o [1]
+      .data            inited   0x1fffea04     0x4  motoII.o [1]
+      .data            inited   0x1fffea08    0x40  xfiles.o [3]
+                              - 0x1fffea48   0x638
+
+"P2", part 2 of 4:                          0x5d5e
+  .bss                          0x1fffea48  0x5d5e  <Block>
+    .bss               zero     0x1fffea48     0x8  motoII.o [1]
+    .bss               zero     0x1fffea50     0x8  motoII.o [1]
+    .bss               zero     0x1fffea58     0x8  motoII.o [1]
+    .bss               zero     0x1fffea60     0x8  motoII.o [1]
+    .bss               zero     0x1fffea68     0x8  motoII.o [1]
+    .bss               zero     0x1fffea70     0x8  motoII.o [1]
+    .bss               zero     0x1fffea78     0x8  motoII.o [1]
+    .bss               zero     0x1fffea80     0x8  motoII.o [1]
+    .bss               zero     0x1fffea88     0x8  motoII.o [1]
+    .bss               zero     0x1fffea90     0x8  motoII.o [1]
+    .bss               zero     0x1fffea98     0x8  motoII.o [1]
+    .bss               zero     0x1fffeaa0     0x8  motoII.o [1]
+    .bss               zero     0x1fffeaa8     0x8  motoII.o [1]
+    .bss               zero     0x1fffeab0     0x8  motoII.o [1]
+    .bss               zero     0x1fffeab8     0x8  motoII.o [1]
+    .bss               zero     0x1fffeac0     0x8  motoII.o [1]
+    .bss               zero     0x1fffeac8     0x8  motoII.o [1]
+    .bss               zero     0x1fffead0     0x8  motoII.o [1]
+    .bss               zero     0x1fffead8     0x8  motoII.o [1]
+    .bss               zero     0x1fffeae0     0x8  motoII.o [1]
+    .bss               zero     0x1fffeae8     0x8  motoII.o [1]
+    .bss               zero     0x1fffeaf0     0x8  motoII.o [1]
+    .bss               zero     0x1fffeaf8     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb00     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb08     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb10     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb18     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb20     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb28     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb30     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb38     0x8  motoII.o [1]
+    .bss               zero     0x1fffeb40    0x28  FIRE_key.o [1]
+    .bss               zero     0x1fffeb68     0x8  FIRE_key.o [1]
+    .bss               zero     0x1fffeb70   0xa00  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1ffff570     0x4  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1ffff574     0x4  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1ffff578    0x14  FIRE_NRF24L0_MSG.o [1]
+    .bss               zero     0x1ffff58c     0xc  image_2.o [1]
+    .bss               zero     0x1ffff598     0x8  image_2.o [1]
+    .bss               zero     0x1ffff5a0     0x8  image_2.o [1]
+    .bss               zero     0x1ffff5a8     0x8  image_2.o [1]
+    .bss               zero     0x1ffff5b0     0x4  image_2.o [1]
+    .bss               zero     0x1ffff5b4     0x4  image_2.o [1]
+    .bss               zero     0x1ffff5b8     0x4  image_2.o [1]
+    .bss               zero     0x1ffff5bc     0x4  image_2.o [1]
+    .bss               zero     0x1ffff5c0     0x8  image_2.o [1]
+    .bss               zero     0x1ffff5c8     0x8  image_2.o [1]
+    .bss               zero     0x1ffff5d0     0x8  image_2.o [1]
+    .bss               zero     0x1ffff5d8   0x320  image_2.o [1]
+    .bss               zero     0x1ffff8f8   0x320  image_2.o [1]
+    .bss               zero     0x1ffffc18   0x320  image_2.o [1]
+    .bss               zero     0x1fffff38   0x320  image_2.o [1]
+    .bss               zero     0x20000258   0x320  image_2.o [1]
+    .bss               zero     0x20000578   0x320  image_2.o [1]
+    .bss               zero     0x20000898     0x4  image_2.o [1]
+    .bss               zero     0x2000089c     0x4  image_2.o [1]
+    .bss               zero     0x200008a0     0xc  image_2.o [1]
+    .bss               zero     0x200008ac     0xc  image_2.o [1]
+    .bss               zero     0x200008b8     0xc  image_2.o [1]
+    .bss               zero     0x200008c4     0xc  image_2.o [1]
+    .bss               zero     0x200008d0     0x4  image_2.o [1]
+    .bss               zero     0x200008d4     0x4  image_2.o [1]
+    .bss               zero     0x200008d8     0x4  image_2.o [1]
+    .bss               zero     0x200008dc     0x4  image_2.o [1]
+    .bss               zero     0x200008e0     0x4  image_2.o [1]
+    .bss               zero     0x200008e4     0x4  image_2.o [1]
+    .bss               zero     0x200008e8     0x4  image_2.o [1]
+    .bss               zero     0x200008ec     0x4  image_2.o [1]
+    .bss               zero     0x200008f0     0x4  image_2.o [1]
+    .bss               zero     0x200008f4     0x4  image_2.o [1]
+    .bss               zero     0x200008f8     0x4  image_2.o [1]
+    .bss               zero     0x200008fc     0x4  image_2.o [1]
+    .bss               zero     0x20000900     0x8  image_2.o [1]
+    .bss               zero     0x20000908    0xf0  image_2.o [1]
+    .bss               zero     0x200009f8     0x4  image_2.o [1]
+    .bss               zero     0x200009fc     0x4  image_2.o [1]
+    .bss               zero     0x20000a00     0x4  image_2.o [1]
+    .bss               zero     0x20000a04    0x28  image_2.o [1]
+    .bss               zero     0x20000a2c     0x4  image_2.o [1]
+    .bss               zero     0x20000a30     0x4  image_2.o [1]
+    .bss               zero     0x20000a34     0x4  image_2.o [1]
+    .bss               zero     0x20000a38     0x4  image_2.o [1]
+    .bss               zero     0x20000a3c    0x10  image_2.o [1]
+    .bss               zero     0x20000a4c    0x10  image_2.o [1]
+    .bss               zero     0x20000a5c    0x10  image_2.o [1]
+    .bss               zero     0x20000a6c    0x10  image_2.o [1]
+    .bss               zero     0x20000a7c    0x10  image_2.o [1]
+    .bss               zero     0x20000a8c    0x10  image_2.o [1]
+    .bss               zero     0x20000a9c    0x10  image_2.o [1]
+    .bss               zero     0x20000aac    0x10  image_2.o [1]
+    .bss               zero     0x20000abc    0x10  image_2.o [1]
+    .bss               zero     0x20000acc    0x10  image_2.o [1]
+    .bss               zero     0x20000adc    0x10  image_2.o [1]
+    .bss               zero     0x20000aec    0x10  image_2.o [1]
+    .bss               zero     0x20000afc    0x20  main.o [1]
+    .bss               zero     0x20000b1c   0x4b4  main.o [1]
+    .bss               zero     0x20000fd0   0x4b4  main.o [1]
+    .bss               zero     0x20001484   0x5dc  main.o [1]
+    .bss               zero     0x20001a60   0x5dc  main.o [1]
+    .bss               zero     0x2000203c     0x4  main.o [1]
+    .bss               zero     0x20002040  0x2580  main.o [1]
+    .bss               zero     0x200045c0     0x4  main.o [1]
+    .bss               zero     0x200045c4     0x4  main.o [1]
+    .bss               zero     0x200045c8     0x4  main.o [1]
+    .bss               zero     0x200045cc     0x4  main.o [1]
+    .bss               zero     0x200045d0     0x4  main.o [1]
+    .bss               zero     0x200045d4     0x4  main.o [1]
+    .bss               zero     0x200045d8     0x4  main.o [1]
+    .bss               zero     0x200045dc     0x4  main.o [1]
+    .bss               zero     0x200045e0     0x4  main.o [1]
+    .bss               zero     0x200045e4     0x4  MKL_wdog.o [1]
+    .bss               zero     0x200045e8     0x4  moto.o [1]
+    .bss               zero     0x200045ec     0x4  moto.o [1]
+    .bss               zero     0x200045f0    0x68  motoII.o [1]
+    .bss               zero     0x20004658     0x4  motoII.o [1]
+    .bss               zero     0x2000465c     0x4  motoII.o [1]
+    .bss               zero     0x20004660     0x4  motoII.o [1]
+    .bss               zero     0x20004664    0x50  motoII.o [1]
+    .bss               zero     0x200046b4     0x4  motoII.o [1]
+    .bss               zero     0x200046b8     0x4  motoII.o [1]
+    .bss               zero     0x200046bc     0x4  motoII.o [1]
+    .bss               zero     0x200046c0     0x4  motoII.o [1]
+    .bss               zero     0x200046c4     0x4  motoII.o [1]
+    .bss               zero     0x200046c8     0x4  motoII.o [1]
+    .bss               zero     0x200046cc     0x4  motoII.o [1]
+    .bss               zero     0x200046d0     0x4  motoII.o [1]
+    .bss               zero     0x200046d4     0x4  motoII.o [1]
+    .bss               zero     0x200046d8     0x4  motoII.o [1]
+    .bss               zero     0x200046dc     0x4  motoII.o [1]
+    .bss               zero     0x200046e0     0x4  motoII.o [1]
+    .bss               zero     0x200046e4     0x4  motoII.o [1]
+    .bss               zero     0x200046e8     0x4  system_MKL.o [1]
+    .bss               zero     0x200046ec     0x4  system_MKL.o [1]
+    .bss               zero     0x200046f0     0x4  system_MKL.o [1]
+    .bss               zero     0x200046f4     0x4  system_MKL.o [1]
+    .bss               zero     0x200046f8    0x50  test.o [1]
+    .bss               zero     0x20004748    0x50  xfiles.o [3]
+    .bss               zero     0x20004798     0x2  motoII.o [1]
+    .bss               zero     0x2000479a     0x2  motoII.o [1]
+    .bss               zero     0x2000479c     0x2  motoII.o [1]
+    .bss               zero     0x2000479e     0x1  FIRE_key.o [1]
+    .bss               zero     0x2000479f     0x1  FIRE_key.o [1]
+    .bss               zero     0x200047a0     0x1  FIRE_key.o [1]
+    .bss               zero     0x200047a1     0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x200047a2     0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x200047a3     0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x200047a4     0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x200047a5     0x1  FIRE_NRF24L0.o [1]
+                              - 0x200047a6  0x5d5e
+
+"P2", part 3 of 4:                             0x2
+  CodeRelocateRam               0x200047a6     0x0  <Block>
+                              - 0x200047a6     0x0
+
+"P2", part 4 of 4:                            0x8c
+  P2 s0                         0x200047a8    0x8c  <Init block>
+    __DLIB_PERTHREAD   inited   0x200047a8    0x88  localeconv.o [3]
+    __DLIB_PERTHREAD   inited   0x20004830     0x4  errno.o [3]
+                              - 0x20004834    0x8c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5d5e:
+          0x1fffea48  0x5d5e
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj: [1]
+    FIRE_LED.o                84        4        4
+    FIRE_MKL_conf.o           84      540      444
+    FIRE_NRF24L0.o         1 332       24    2 589
+    FIRE_NRF24L0_MSG.o       140       92       20
+    FIRE_OV7725_Eagle.o      216      273      101
+    FIRE_SCCB.o            1 150
+    FIRE_key.o               512        8       59
+    MKL_PIT.o                196       60
+    MKL_SysTick.o            216       64
+    MKL_TPM.o              1 048       72       12
+    MKL_adc.o                496       64        4
+    MKL_dma.o                468       60
+    MKL_gpio.o               416       80       20
+    MKL_i2c.o                688      136        8
+    MKL_lptmr.o               84
+    MKL_mcg.o                832       56       56
+    MKL_port.o               164       20       20
+    MKL_spi.o                860       68        8
+    MKL_uart.o               824       12       12
+    MKL_wdog.o                32                 4
+    darw.o                    88
+    image_2.o             20 324      775    6 228
+    main.o                 1 408       32   15 112
+    misc.o                   208       56
+    moto.o                   296       12        8
+    motoII.o               4 132       40      542
+    oled.o                 2 072    2 092
+    startup_MKL.o              8
+    system_MKL.o             388                16
+    test.o                   672                80
+    tool.o                   424        2
+    vectors.o                       1 040
+    ----------------------------------------------
+    Total:                39 862    5 682   25 347
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    abs.o                      8
+    div.o                     32
+    errno.o                   16        4        4
+    exit.o                     8
+    localeconv.o             104      136      136
+    low_level_init.o           4
+    memset.o                  20
+    printf.o                  36
+    putchar.o                 16
+    xfiles.o                           64      144
+    xprintffull_nomb.o     3 782       24
+    xprout.o                  22
+    xtls.o                     2
+    ----------------------------------------------
+    Total:                 4 050      228      284
+
+m6M_tl.a: [4]
+    DblAddSub.o              436
+    DblCmpGe.o                50
+    DblCmpLe.o                50
+    DblDiv.o                 194
+    DblMul.o                 388
+    DblToFlt.o                98
+    DblToI32.o                82
+    FltAddSub.o              288
+    FltCmpEq.o                32
+    FltCmpGe.o                40
+    FltCmpLe.o                38
+    FltDiv.o                 170
+    FltMul.o                 180
+    FltToDbl.o                50
+    FltToS32.o                58
+    FltToU32.o                38
+    I32ToDbl.o                52
+    I32ToFlt.o                54
+    sqrt.o                   190
+    xdnorm.o                  68
+    xdscale.o                284
+    ----------------------------------------------
+    Total:                 2 840
+
+rt6M_tl.a: [5]
+    ABImemcpy.o               92
+    ABImemset.o               84
+    I32DivModFast.o          224
+    I64DivMod.o              106
+    I64DivZer.o                2
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    cstartup_M.o              12
+    data_init.o               40
+    iarEdom.o                 12
+    memchr.o                  24
+    strchr.o                  20
+    strlen.o                  16
+    zero_init3.o              42
+    ----------------------------------------------
+    Total:                   712
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                      20                 3
+    Linker created                     20
+--------------------------------------------------
+    Grand Total:          47 504    5 930   25 634
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fffea48           --   Gb  - Linker created -
+.bss$$Limit             0x200047a6           --   Gb  - Linker created -
+.data$$Base             0x1fffe410           --   Gb  - Linker created -
+.data$$Limit            0x1fffea48           --   Gb  - Linker created -
+.data_init$$Base        0x0000a05c           --   Gb  - Linker created -
+.data_init$$Limit       0x0000a698           --   Gb  - Linker created -
+?main                   0x0000cefd          Code  Gb  cmain.o [5]
+ADCN                    0x1fffe954     0x4  Data  Gb  MKL_adc.o [1]
+ASSERT_FAILED_STR       0x0000ce60    0x24  Data  Gb  FIRE_MKL_conf.o [1]
+AV_leftcol              0x20000898     0x4  Data  Gb  image_2.o [1]
+AV_rightcol             0x2000089c     0x4  Data  Gb  image_2.o [1]
+Acc_x                   0x2000479a     0x2  Data  Gb  motoII.o [1]
+Acc_z                   0x2000479c     0x2  Data  Gb  motoII.o [1]
+Ang_Calc                0x00006975   0x2d6  Code  Gb  motoII.o [1]
+CTRL_Handler            0x0000b73d    0x86  Code  Gb  moto.o [1]
+CalcAngleControl        0x00006ca1    0xaa  Code  Gb  motoII.o [1]
+CalcDirectionControl    0x000073b1   0x16c  Code  Gb  motoII.o [1]
+CalcSpeedControl        0x00006df9    0xea  Code  Gb  motoII.o [1]
+CalcSumControl          0x00006fa1   0x11e  Code  Gb  motoII.o [1]
+CarAngle                0x1fffea60     0x8  Data  Gb  motoII.o [1]
+CarAngleQ               0x1fffe9f0     0x8  Data  Gb  motoII.o [1]
+ChargeBarrier           0x000066a7    0xea  Code  Gb  test.o [1]
+CodeRelocate$$Base      0x00000410           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00000410           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x200047a6           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x200047a6           --   Gb  - Linker created -
+DD_Ratio                0x1fffea04     0x4  Data  Gb  motoII.o [1]
+DIR_fifo                0x0000728d   0x10e  Code  Gb  motoII.o [1]
+D_Direction             0x1fffead0     0x8  Data  Gb  motoII.o [1]
+DecoderNum              0x200045f0    0x68  Data  Gb  motoII.o [1]
+Dir_D_val               0x1fffeae8     0x8  Data  Gb  motoII.o [1]
+Dir_P_val               0x1fffeae0     0x8  Data  Gb  motoII.o [1]
+F6x8                    0x0000c788   0x228  Data  Gb  oled.o [1]
+F8X16                   0x0000a698   0x5f0  Data  Gb  oled.o [1]
+FindRoadType            0x000065f1    0x28  Code  Gb  test.o [1]
+GPIOX                   0x1fffe958    0x14  Data  Gb  MKL_gpio.o [1]
+GetEncoderPluse         0x00006da9    0x50  Code  Gb  motoII.o [1]
+GetPointTab             0x00006619    0x8e  Code  Gb  test.o [1]
+GyroAngleSpeed          0x1fffea48     0x8  Data  Gb  motoII.o [1]
+GyroAngleSpeed_pi       0x1fffea50     0x8  Data  Gb  motoII.o [1]
+GyroOffset              0x1fffe9e0     0x8  Data  Gb  motoII.o [1]
+Gyro_Adj                0x000070f9   0x170  Code  Gb  motoII.o [1]
+HandleBarrier           0x00006791    0xfa  Code  Gb  test.o [1]
+I2CN                    0x1fffe96c     0x8  Data  Gb  MKL_i2c.o [1]
+ImageBuf                0x20002040  0x2580  Data  Gb  main.o [1]
+ImagePointer            0x1fffe950     0x4  Data  Gb  main.o [1]
+Init_SetArguments       0x00006891    0x84  Code  Gb  motoII.o [1]
+KEY_PTxn                0x1fffe410     0x8  Data  Gb  FIRE_key.o [1]
+Ka                      0x1fffea90     0x8  Data  Gb  motoII.o [1]
+Kb                      0x1fffea70     0x8  Data  Gb  motoII.o [1]
+Kd                      0x1fffea80     0x8  Data  Gb  motoII.o [1]
+Ku                      0x1fffea78     0x8  Data  Gb  motoII.o [1]
+Kv                      0x1fffea88     0x8  Data  Gb  motoII.o [1]
+Kw                      0x1fffea68     0x8  Data  Gb  motoII.o [1]
+LED_PTxn                0x1fffe418     0x4  Data  Gb  FIRE_LED.o [1]
+LastCoderNumSum         0x1fffeb18     0x8  Data  Gb  motoII.o [1]
+LastSpeed               0x1fffeaf8     0x8  Data  Gb  motoII.o [1]
+NRF_ISR_RX_FIFO         0x1fffeb70   0xa00  Data  Gb  FIRE_NRF24L0.o [1]
+NRF_on                  0x200045c4     0x4  Data  Gb  main.o [1]
+NVIC_DisableIRQ         0x0000ac97     0xe  Code  Lc  main.o [1]
+NVIC_EnableIRQ          0x0000ac89     0xe  Code  Lc  main.o [1]
+NVIC_SetPriority        0x0000aca5    0x8e  Code  Lc  main.o [1]
+NVIC_SetPriority        0x00007e81    0x8e  Code  Lc  MKL_SysTick.o [1]
+NowCoderNumSum          0x1fffeb10     0x8  Data  Gb  motoII.o [1]
+NowSpeed                0x1fffeaf0     0x8  Data  Gb  motoII.o [1]
+OLED_Fill               0x000056d1    0x40  Code  Gb  oled.o [1]
+OLED_Init               0x000055ef    0xb2  Code  Gb  oled.o [1]
+OLED_Item_double        0x00005a5d   0x168  Code  Gb  oled.o [1]
+OLED_Progress           0x00005bc5   0x18e  Code  Gb  oled.o [1]
+OLED_SetPos             0x000056a1    0x30  Code  Gb  oled.o [1]
+OLED_ShowNum            0x00005821   0x212  Code  Gb  oled.o [1]
+OLED_ShowStr            0x00005711   0x100  Code  Gb  oled.o [1]
+OLED_i2c_init           0x000055ad     0xc  Code  Gb  oled.o [1]
+OLED_stop_flag          0x200045dc     0x4  Data  Gb  main.o [1]
+OffsetQ                 0x1fffe650     0x4  Data  Gb  image_2.o [1]
+PIT_IRQHandler          0x0000b7c5    0x6e  Code  Gb  moto.o [1]
+PORTC_PORTD_IRQHandler  0x0000b149    0x6e  Code  Gb  main.o [1]
+PORTX                   0x1fffe9ac    0x14  Data  Gb  MKL_port.o [1]
+P_Direction             0x1fffeac8     0x8  Data  Gb  motoII.o [1]
+Pause                   0x000079e9    0x20  Code  Gb  MKL_i2c.o [1]
+RX_ADDRESS              0x1fffe5e0     0x8  Data  Gb  FIRE_NRF24L0.o [1]
+R_qipao                 0x1fffe65c     0x4  Data  Gb  image_2.o [1]
+R_ren                   0x1fffe654     0x4  Data  Gb  image_2.o [1]
+R_shizi                 0x1fffe660     0x4  Data  Gb  image_2.o [1]
+R_xiaos                 0x1fffe658     0x4  Data  Gb  image_2.o [1]
+R_zhang                 0x1fffe664     0x4  Data  Gb  image_2.o [1]
+Region$$Table$$Base     0x0000cecc           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000cedc           --   Gb  - Linker created -
+Ren_Clean_Flag          0x200008f8     0x4  Data  Gb  image_2.o [1]
+Ren_Turn_Inter          0x1fffeb30     0x8  Data  Gb  motoII.o [1]
+Reset_Handler           0x00000411          Code  Gb  startup_MKL.o [1]
+SCCB_Ack                0x0000c0fd    0x56  Code  Lc  FIRE_SCCB.o [1]
+SCCB_GPIO_init          0x0000bfe1    0x28  Code  Gb  FIRE_SCCB.o [1]
+SCCB_NoAck              0x0000c153    0x58  Code  Lc  FIRE_SCCB.o [1]
+SCCB_ReadByte           0x0000c395    0x2c  Code  Gb  FIRE_SCCB.o [1]
+SCCB_ReadByte_one       0x0000c3c1    0x86  Code  Lc  FIRE_SCCB.o [1]
+SCCB_ReceiveByte        0x0000c291    0x7e  Code  Lc  FIRE_SCCB.o [1]
+SCCB_SendByte           0x0000c22d    0x60  Code  Lc  FIRE_SCCB.o [1]
+SCCB_Start              0x0000c009    0xa4  Code  Lc  FIRE_SCCB.o [1]
+SCCB_Stop               0x0000c0ad    0x50  Code  Lc  FIRE_SCCB.o [1]
+SCCB_WaitAck            0x0000c1ab    0x82  Code  Lc  FIRE_SCCB.o [1]
+SCCB_WriteByte          0x0000c325    0x28  Code  Gb  FIRE_SCCB.o [1]
+SCCB_WriteByte_one      0x0000c34d    0x48  Code  Lc  FIRE_SCCB.o [1]
+SCCB_delay              0x0000bfc9    0x18  Code  Lc  FIRE_SCCB.o [1]
+SPIN                    0x1fffe9c0     0x8  Data  Gb  MKL_spi.o [1]
+Save_Ctrl_Data          0x00007621   0x20c  Code  Gb  motoII.o [1]
+SetMotorVoltage_II      0x00006f25    0x7c  Code  Gb  motoII.o [1]
+SysTick_IRQHandlerII    0x00007839    0x28  Code  Gb  motoII.o [1]
+TPMN                    0x1fffe9c8     0xc  Data  Gb  MKL_TPM.o [1]
+TX_ADDRESS              0x1fffe5d8     0x8  Data  Gb  FIRE_NRF24L0.o [1]
+Timing_Func             0x0000753d    0x8a  Code  Gb  motoII.o [1]
+UARTN                   0x1fffe9d4     0xc  Data  Gb  MKL_uart.o [1]
+WriteCmd                0x000055b9    0x14  Code  Gb  oled.o [1]
+WriteDat                0x000055cd    0x14  Code  Gb  oled.o [1]
+_GenldFullNoMb          0x00009af9   0x29a  Code  Lc  xprintffull_nomb.o [3]
+_LdtobFullNoMb          0x00009661   0x484  Code  Lc  xprintffull_nomb.o [3]
+_LitobFullNoMb          0x00009545   0x118  Code  Lc  xprintffull_nomb.o [3]
+_Locale_aeabi_lconv     0x200047f8    0x38  Data  Gb  localeconv.o [3]
+_Locale_lconv           0x200047a8    0x50  Data  Gb  localeconv.o [3]
+_PrintfFullNoMb         0x00008f01   0x644  Code  Gb  xprintffull_nomb.o [3]
+_Prout                  0x0000cf8d    0x16  Code  Gb  xprout.o [3]
+_PutcharsFullNoMb       0x00009d93    0x30  Code  Lc  xprintffull_nomb.o [3]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20005ff8           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fffe000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           --   Gb  command line/config [2]
+__aeabi_cdcmple         0x000053af          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0000537d          Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmpeq         0x00005fc5          Code  Gb  FltCmpEq.o [4]
+__aeabi_cfcmple         0x0000883d          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x000087c1          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x00006441          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x000053e1          Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x00005405          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x0000628d          Code  Gb  DblAddSub.o [4]
+__aeabi_ddiv            0x0000652f          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00006109          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00006353          Code  Gb  DblAddSub.o [4]
+__aeabi_errno_addr      0x00008ef1     0xa  Code  Gb  errno.o [3]
+__aeabi_f2d             0x000064fd          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x00006099          Code  Gb  FltToS32.o [4]
+__aeabi_f2uiz           0x00008b6d          Code  Gb  FltToU32.o [4]
+__aeabi_fadd            0x00005dfb          Code  Gb  FltAddSub.o [4]
+__aeabi_fdiv            0x00005f1b          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x00005fe5          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x00005e6b          Code  Gb  FltAddSub.o [4]
+__aeabi_i2d             0x000060d5          Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x00005dc5          Code  Gb  I32ToFlt.o [4]
+__aeabi_idiv            0x00005473          Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x000078b5          Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x00005473          Code  Gb  I32DivModFast.o [5]
+__aeabi_ldiv0           0x0000a059          Code  Gb  I64DivZer.o [5]
+__aeabi_memclr4         0x000055a9          Code  Gb  ABImemset.o [5]
+__aeabi_memclr8         0x000055a9          Code  Gb  ABImemset.o [5]
+__aeabi_memcpy          0x00008a0d          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x00008a35          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x00008a35          Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x00005559          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x000060e9          Code  Gb  I32ToDbl.o [4]
+__aeabi_ui2f            0x00005ddd          Code  Gb  I32ToFlt.o [4]
+__aeabi_uidiv           0x00005479          Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x00005479          Code  Gb  I32DivModFast.o [5]
+__aeabi_uldivmod        0x00009e05          Code  Gb  I64DivMod.o [5]
+__cmain                 0x0000cefd          Code  Gb  cmain.o [5]
+__exit                  0x0000cf31    0x14  Code  Gb  exit.o [6]
+__iar_Dnorm             0x00009e6f    0x44  Code  Gb  xdnorm.o [4]
+__iar_Dscale            0x00009eb5   0x11c  Code  Gb  xdscale.o [4]
+__iar_Errno             0x20004830     0x4  Data  Gb  errno.o [3]
+__iar_Locale_lconv_init
+                        0x00009fd1    0x32  Code  Gb  localeconv.o [3]
+__iar_Memchr            0x00009ded    0x18  Code  Gb  memchr.o [5]
+__iar_Memset4_word      0x00005579          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x00005565          Code  Gb  ABImemset.o [5]
+__iar_Stdout            0x1fffea08    0x40  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x00009dc9    0x14  Code  Gb  strchr.o [5]
+__iar_d2uiz             0x00005409          Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x0000ce39    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x00009dc7     0x2  Code  Gb  xtls.o [3]
+__iar_edom              0x00008b61          Code  Gb  iarEdom.o [5]
+__iar_program_start     0x0000d00d          Code  Gb  cstartup_M.o [5]
+__iar_sqrt              0x000082e9          Code  Gb  sqrt.o [4]
+__iar_ui2d              0x000060ed          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x00005de1          Code  Gb  I32ToFlt.o [4]
+__iar_zero_init3        0x0000552f    0x2a  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000cf17     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x0000cf09          Code  Gb  cmain.o [5]
+_exit                   0x0000cf25          Code  Gb  cexit.o [5]
+_main                   0x0000cf13          Code  Gb  cmain.o [5]
+aSpeed                  0x1fffeb00     0x8  Data  Gb  motoII.o [1]
+abs                     0x00005527     0x8  Code  Gb  abs.o [3]
+adc_init                0x000080f9   0x138  Code  Gb  MKL_adc.o [1]
+adc_once                0x00008231    0x5a  Code  Gb  MKL_adc.o [1]
+adc_start               0x0000828b    0x4c  Code  Lc  MKL_adc.o [1]
+all_init                0x0000af85   0x1a8  Code  Gb  main.o [1]
+assert_failed           0x00008b0d    0x12  Code  Gb  FIRE_MKL_conf.o [1]
+b                       0x1fffeaa8     0x8  Data  Gb  motoII.o [1]
+block_flag              0x200008d8     0x4  Data  Gb  image_2.o [1]
+bus_clk_khz             0x200046f4     0x4  Data  Gb  system_MKL.o [1]
+centreline              0x20000908    0xf0  Data  Gb  image_2.o [1]
+centreline1             0x1fffe674     0x8  Data  Gb  image_2.o [1]
+centreline2             0x1fffe67c     0x8  Data  Gb  image_2.o [1]
+centreline3             0x1fffe684     0x8  Data  Gb  image_2.o [1]
+clk_out_init            0x0000ca33    0x24  Code  Gb  system_MKL.o [1]
+command                 0x1fffe934     0x4  Data  Gb  main.o [1]
+common_startup          0x0000ca57    0x92  Code  Gb  system_MKL.o [1]
+compare                 0x000004ff    0x20  Code  Gb  image_2.o [1]
+confine                 0x00000419    0xe6  Code  Gb  image_2.o [1]
+conntrol_array          0x1fffe694    0xe0  Data  Gb  image_2.o [1]
+control_limit           0x20000a30     0x4  Data  Gb  image_2.o [1]
+control_row             0x1ffff58c     0xc  Data  Gb  image_2.o [1]
+core_clk_khz            0x200046ec     0x4  Data  Gb  system_MKL.o [1]
+core_clk_mhz            0x200046f0     0x4  Data  Gb  system_MKL.o [1]
+countblackpoint         0x000005a1    0x2c  Code  Gb  image_2.o [1]
+crossline               0x00004581    0xbc  Code  Gb  image_2.o [1]
+crossroad_flag          0x200008e4     0x4  Data  Gb  image_2.o [1]
+crossroll               0x00004955   0x190  Code  Gb  image_2.o [1]
+dError_new              0x200046b8     0x4  Data  Gb  motoII.o [1]
+dError_old              0x200046bc     0x4  Data  Gb  motoII.o [1]
+dGyroAngleSpeed         0x1fffea58     0x8  Data  Gb  motoII.o [1]
+dGyroOffset             0x1fffe9e8     0x8  Data  Gb  motoII.o [1]
+d_delta                 0x200046cc     0x4  Data  Gb  motoII.o [1]
+data_pointer            0x1fffe944     0x4  Data  Gb  main.o [1]
+data_pointer1           0x1fffe94c     0x4  Data  Gb  main.o [1]
+dataprocess             0x00002701   0x8f4  Code  Gb  image_2.o [1]
+default_isr             0x00008b35    0x1c  Code  Gb  FIRE_MKL_conf.o [1]
+dely                    0x000055e1     0xe  Code  Gb  oled.o [1]
+dir_ctrl_lim            0x1fffeb20     0x8  Data  Gb  motoII.o [1]
+dir_ctrl_lim_set        0x1fffeb28     0x8  Data  Gb  motoII.o [1]
+dir_ctrl_times          0x1fffea00     0x4  Data  Gb  motoII.o [1]
+dir_refresh_flag        0x200046b4     0x4  Data  Gb  motoII.o [1]
+div                     0x0000a039    0x20  Code  Gb  div.o [3]
+dma_portx2buff_init     0x0000b9c9   0x1d4  Code  Gb  MKL_dma.o [1]
+dma_repeat              0x0000ad33    0x7a  Code  Lc  main.o [1]
+draw_point_anti         0x000064a5    0x20  Code  Gb  darw.o [1]
+draw_shizi              0x000064c5    0x38  Code  Gb  darw.o [1]
+drawline                0x000043a1   0x1e0  Code  Gb  image_2.o [1]
+drawpoint_2             0x000037fd    0x78  Code  Gb  image_2.o [1]
+errowfinder             0x000038a1   0x1b8  Code  Gb  image_2.o [1]
+exit                    0x0000cf1b     0x8  Code  Gb  exit.o [3]
+fillwhite               0x00003c0d   0x202  Code  Gb  image_2.o [1]
+fire_cpy                0x0000bbed    0x80  Code  Gb  misc.o [1]
+fixedline               0x00003e45   0x536  Code  Gb  image_2.o [1]
+fixedrow1               0x1fffe668     0x4  Data  Gb  image_2.o [1]
+fixedrow2               0x1fffe66c     0x4  Data  Gb  image_2.o [1]
+fixedrow3               0x1fffe670     0x4  Data  Gb  image_2.o [1]
+fputc                   0x00008b1f    0x14  Code  Gb  FIRE_MKL_conf.o [1]
+frameCnt                0x200045d0     0x4  Data  Gb  main.o [1]
+fzx                     0x1fffeb38     0x8  Data  Gb  motoII.o [1]
+g_fDIR                  0x200045e8     0x4  Data  Gb  moto.o [1]
+g_uDirectionControl     0x1fffead8     0x8  Data  Gb  motoII.o [1]
+g_uStandControl         0x1fffeb08     0x8  Data  Gb  motoII.o [1]
+get_key_msg             0x00007c8d    0x68  Code  Gb  FIRE_key.o [1]
+getstartline            0x00000759   0x1c4  Code  Gb  image_2.o [1]
+gpio_get                0x000080ad    0x44  Code  Gb  MKL_gpio.o [1]
+gpio_init               0x00007f59    0xce  Code  Gb  MKL_gpio.o [1]
+gpio_set                0x00008027    0x86  Code  Gb  MKL_gpio.o [1]
+herringbone_flag        0x200008e8     0x4  Data  Gb  image_2.o [1]
+hold_flag               0x200008f4     0x4  Data  Gb  image_2.o [1]
+i2c_init                0x000078b9   0x12e  Code  Gb  MKL_i2c.o [1]
+i2c_write_reg           0x00007a29   0x13a  Code  Gb  MKL_i2c.o [1]
+imagpro_2               0x00005111   0x1dc  Code  Gb  image_2.o [1]
+img_buff                0x1fffe940     0x4  Data  Gb  main.o [1]
+img_buff1               0x1fffe948     0x4  Data  Gb  main.o [1]
+img_condense            0x0000896f    0x98  Code  Gb  tool.o [1]
+img_extract             0x000088bd    0xb2  Code  Gb  tool.o [1]
+imgbuff                 0x1fffe938     0x4  Data  Gb  main.o [1]
+imgbuff1                0x1fffe93c     0x4  Data  Gb  main.o [1]
+key_IRQHandler          0x00007cf5    0xae  Code  Gb  FIRE_key.o [1]
+key_get                 0x00007c0f    0x1a  Code  Gb  FIRE_key.o [1]
+key_init                0x00007bbd    0x52  Code  Gb  FIRE_key.o [1]
+key_msg                 0x1fffeb40    0x28  Data  Gb  FIRE_key.o [1]
+key_msg_flag            0x200047a0     0x1  Data  Gb  FIRE_key.o [1]
+key_msg_front           0x2000479e     0x1  Data  Gb  FIRE_key.o [1]
+key_msg_rear            0x2000479f     0x1  Data  Gb  FIRE_key.o [1]
+led                     0x00008823    0x16  Code  Gb  FIRE_LED.o [1]
+led_init                0x000087e9    0x3a  Code  Gb  FIRE_LED.o [1]
+left1lost_flag          0x1ffff5b0     0x4  Data  Gb  image_2.o [1]
+left2lost_flag          0x1ffff5b8     0x4  Data  Gb  image_2.o [1]
+leftcolmaxpoint         0x200008b8     0xc  Data  Gb  image_2.o [1]
+leftdirection           0x20000258   0x320  Data  Gb  image_2.o [1]
+leftfoldangle           0x20000a5c    0x10  Data  Gb  image_2.o [1]
+lefthighestpoint        0x200008a0     0xc  Data  Gb  image_2.o [1]
+leftline1               0x200009f8     0x4  Data  Gb  image_2.o [1]
+leftline2               0x200009fc     0x4  Data  Gb  image_2.o [1]
+leftlinecol             0x1ffff8f8   0x320  Data  Gb  image_2.o [1]
+leftlinerow             0x1ffff5d8   0x320  Data  Gb  image_2.o [1]
+leftnegmaxangle         0x20000a4c    0x10  Data  Gb  image_2.o [1]
+leftpointnumber         0x200008d0     0x4  Data  Gb  image_2.o [1]
+leftposmaxangle         0x20000a3c    0x10  Data  Gb  image_2.o [1]
+leftsixtyone            0x20000a9c    0x10  Data  Gb  image_2.o [1]
+leftsixtythree          0x20000abc    0x10  Data  Gb  image_2.o [1]
+leftsixtytwo            0x20000aac    0x10  Data  Gb  image_2.o [1]
+line1_width             0x1ffff598     0x8  Data  Gb  image_2.o [1]
+line1lost_memo          0x1ffff5c0     0x8  Data  Gb  image_2.o [1]
+line2_width             0x1ffff5a0     0x8  Data  Gb  image_2.o [1]
+line2lost_memo          0x1ffff5c8     0x8  Data  Gb  image_2.o [1]
+line3_fifo              0x20000a04    0x28  Data  Gb  image_2.o [1]
+line3_width             0x1ffff5a8     0x8  Data  Gb  image_2.o [1]
+line3lost_memo          0x1ffff5d0     0x8  Data  Gb  image_2.o [1]
+line_move               0x20000a34     0x4  Data  Gb  image_2.o [1]
+linewidth               0x20000a38     0x4  Data  Gb  image_2.o [1]
+localeconv              0x0000a003    0x18  Code  Gb  localeconv.o [3]
+lostframe               0x200045d8     0x4  Data  Gb  main.o [1]
+lptmr_delay_ms          0x00007b69    0x42  Code  Gb  MKL_lptmr.o [1]
+main                    0x0000adc1   0x198  Code  Gb  main.o [1]
+mcg_cfg                 0x1fffe974    0x34  Data  Gb  MKL_mcg.o [1]
+mcg_div                 0x1fffe9a8     0x4  Data  Gb  MKL_mcg.o [1]
+mcg_div_count           0x0000c449   0x222  Code  Gb  MKL_mcg.o [1]
+memset                  0x00005433    0x14  Code  Gb  memset.o [3]
+midfilter               0x000006e9    0x70  Code  Gb  image_2.o [1]
+nErrors                 0x20004664    0x50  Data  Gb  motoII.o [1]
+new_w                   0x1fffea98     0x8  Data  Gb  motoII.o [1]
+now_data                0x2000203c     0x4  Data  Gb  main.o [1]
+nrf_com_size            0x0000cfb4    0x14  Data  Gb  FIRE_NRF24L0_MSG.o [1]
+nrf_com_totalsize       0x1ffff578    0x14  Data  Gb  FIRE_NRF24L0_MSG.o [1]
+nrf_handler             0x0000b5f1   0x122  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_init                0x0000b209    0xa8  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_irq_tx_addr         0x1ffff570     0x4  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_irq_tx_flag         0x200047a5     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_irq_tx_pnum         0x1ffff574     0x4  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_link_check          0x0000b34f    0x76  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_mode                0x200047a1     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_msg_init            0x0000b865    0x28  Code  Gb  FIRE_NRF24L0_MSG.o [1]
+nrf_msg_tx              0x0000b88d    0x56  Code  Gb  FIRE_NRF24L0_MSG.o [1]
+nrf_readbuf             0x0000b327    0x28  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_readreg             0x0000b2d7    0x28  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_rx                  0x0000b46d    0xe6  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_rx_buff             0x20000afc    0x20  Data  Gb  main.o [1]
+nrf_rx_flag             0x200047a4     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_rx_front            0x200047a2     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_rx_mode             0x0000b3c5    0x54  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_rx_rear             0x200047a3     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_tx                  0x0000b561    0x62  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_tx_mode             0x0000b419    0x4c  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_tx_state            0x0000b5c3    0x26  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_writebuf            0x0000b2ff    0x28  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_writereg            0x0000b2b1    0x26  Code  Lc  FIRE_NRF24L0.o [1]
+obuf                    0x20004748    0x50  Data  Lc  xfiles.o [3]
+offset_line3            0x20000a00     0x4  Data  Gb  image_2.o [1]
+offsetcal               0x00004b69   0x558  Code  Gb  image_2.o [1]
+old_w                   0x1fffeaa0     0x8  Data  Gb  motoII.o [1]
+ov7725_eagle_cfgnum     0x1fffe64c     0x1  Data  Gb  FIRE_OV7725_Eagle.o [1]
+ov7725_eagle_reg        0x1fffe5e8    0x64  Data  Gb  FIRE_OV7725_Eagle.o [1]
+ov7725_eagle_reg_init   0x0000b8f1    0xb6  Code  Gb  FIRE_OV7725_Eagle.o [1]
+p_delta                 0x200046c8     0x4  Data  Gb  motoII.o [1]
+p_new                   0x200046c0     0x4  Data  Gb  motoII.o [1]
+p_old                   0x200046c4     0x4  Data  Gb  motoII.o [1]
+pit_init                0x00007dbd    0x7a  Code  Gb  MKL_PIT.o [1]
+pit_time_close          0x00007e37    0x3a  Code  Gb  MKL_PIT.o [1]
+pll_clk_mhz             0x200046e8     0x4  Data  Gb  system_MKL.o [1]
+pll_init                0x0000c67d    0xb8  Code  Gb  MKL_mcg.o [1]
+port_init               0x00008a69    0x36  Code  Gb  MKL_port.o [1]
+port_init_NoALT         0x00008a9f    0x60  Code  Gb  MKL_port.o [1]
+pre_stop_flag           0x200046e0     0x4  Data  Gb  motoII.o [1]
+printf                  0x00008b95    0x24  Code  Gb  printf.o [3]
+protect                 0x00004ae5    0x46  Code  Gb  image_2.o [1]
+putchar                 0x0000cfa5    0x10  Code  Gb  putchar.o [3]
+qipao_time_add_flag     0x1fffe9f8     0x4  Data  Gb  motoII.o [1]
+qipao_time_cnt          0x20004658     0x4  Data  Gb  motoII.o [1]
+ramp_array              0x1fffe854    0xe0  Data  Gb  image_2.o [1]
+ramp_flag               0x200008e0     0x4  Data  Gb  image_2.o [1]
+ready2tx_Flag           0x200045cc     0x4  Data  Gb  main.o [1]
+rec_crossroad           0x000032dd    0x8c  Code  Gb  image_2.o [1]
+rec_herringbone         0x00003521   0x2c6  Code  Gb  image_2.o [1]
+rec_ramp                0x00003381    0x7c  Code  Gb  image_2.o [1]
+rec_s_bend              0x00003415    0xba  Code  Gb  image_2.o [1]
+rec_startingline        0x00003021   0x2b2  Code  Gb  image_2.o [1]
+ren_array               0x1fffe774    0xe0  Data  Gb  image_2.o [1]
+ren_turn_limit          0x200008fc     0x4  Data  Gb  image_2.o [1]
+renziroll               0x00004671   0x2ca  Code  Gb  image_2.o [1]
+right1lost_flag         0x1ffff5b4     0x4  Data  Gb  image_2.o [1]
+right2lost_flag         0x1ffff5bc     0x4  Data  Gb  image_2.o [1]
+rightcolminpoint        0x200008c4     0xc  Data  Gb  image_2.o [1]
+rightdirection          0x20000578   0x320  Data  Gb  image_2.o [1]
+rightfoldangle          0x20000a8c    0x10  Data  Gb  image_2.o [1]
+righthighestpoint       0x200008ac     0xc  Data  Gb  image_2.o [1]
+rightline1              0x1fffe68c     0x4  Data  Gb  image_2.o [1]
+rightline2              0x1fffe690     0x4  Data  Gb  image_2.o [1]
+rightlinecol            0x1fffff38   0x320  Data  Gb  image_2.o [1]
+rightlinerow            0x1ffffc18   0x320  Data  Gb  image_2.o [1]
+rightnegmaxangle        0x20000a7c    0x10  Data  Gb  image_2.o [1]
+rightpointnumber        0x200008d4     0x4  Data  Gb  image_2.o [1]
+rightposmaxangle        0x20000a6c    0x10  Data  Gb  image_2.o [1]
+rightsixtyone           0x20000acc    0x10  Data  Gb  image_2.o [1]
+rightsixtythree         0x20000aec    0x10  Data  Gb  image_2.o [1]
+rightsixtytwo           0x20000adc    0x10  Data  Gb  image_2.o [1]
+s_bend_flag             0x200008dc     0x4  Data  Gb  image_2.o [1]
+sampleCnt               0x200045c8     0x4  Data  Gb  main.o [1]
+sample_image_buff       0x20000b1c   0x4b4  Data  Gb  main.o [1]
+sample_image_buff1      0x20000fd0   0x4b4  Data  Gb  main.o [1]
+sampleframeCnt          0x200045d4     0x4  Data  Gb  main.o [1]
+save_ctrl_data_cnt      0x20004798     0x2  Data  Gb  motoII.o [1]
+save_double2int16       0x0000889b    0x22  Code  Gb  tool.o [1]
+save_frame_cnt          0x00008877    0x24  Code  Gb  tool.o [1]
+send_key_msg            0x00007c29    0x64  Code  Gb  FIRE_key.o [1]
+sendimgflag             0x200045c0     0x4  Data  Gb  main.o [1]
+set_vector_handler      0x0000bbbd    0x24  Code  Gb  misc.o [1]
+size_of_long            0x200045e0     0x4  Data  Gb  main.o [1]
+spi_init                0x0000bdb3    0xc4  Code  Gb  MKL_spi.o [1]
+spi_mosi                0x0000be77    0x7c  Code  Gb  MKL_spi.o [1]
+spi_mosi_cmd            0x0000bef9    0xb6  Code  Gb  MKL_spi.o [1]
+spi_pcs_io              0x0000bc6d    0x4c  Code  Lc  MKL_spi.o [1]
+spi_set_baud            0x0000bcb9    0xfa  Code  Gb  MKL_spi.o [1]
+sqrt                    0x000082e9          Code  Gb  sqrt.o [4]
+sqrtl                   0x000082e9          Code  Gb  sqrt.o [4]
+start                   0x0000c9b1    0x18  Code  Gb  system_MKL.o [1]
+start_check             0x00008b33     0x2  Code  Gb  FIRE_MKL_conf.o [1]
+start_time_add_flag     0x1fffe9fc     0x4  Data  Gb  motoII.o [1]
+start_time_cnt          0x2000465c     0x4  Data  Gb  motoII.o [1]
+startingline_flag       0x200008ec     0x4  Data  Gb  image_2.o [1]
+stop_flag               0x200046dc     0x4  Data  Gb  motoII.o [1]
+stop_flag_image         0x200046e4     0x4  Data  Gb  motoII.o [1]
+stop_pre                0x200045ec     0x4  Data  Gb  moto.o [1]
+stop_time_cnt           0x20004660     0x4  Data  Gb  motoII.o [1]
+strlen                  0x00009ddd    0x10  Code  Gb  strlen.o [5]
+structinit              0x0000064d    0x4a  Code  Gb  image_2.o [1]
+sysinit                 0x0000c9c9    0x6a  Code  Gb  system_MKL.o [1]
+systick_timing          0x00007f0f    0x30  Code  Gb  MKL_SysTick.o [1]
+tpm_port_mux            0x000083a9    0xf4  Code  Gb  MKL_TPM.o [1]
+tpm_pulse_clean         0x0000877f    0x10  Code  Gb  MKL_TPM.o [1]
+tpm_pulse_get           0x0000878f    0x10  Code  Gb  MKL_TPM.o [1]
+tpm_pulse_init          0x0000869d    0xe2  Code  Gb  MKL_TPM.o [1]
+tpm_pwm_duty            0x00008615    0x76  Code  Gb  MKL_TPM.o [1]
+tpm_pwm_init            0x0000849d   0x178  Code  Gb  MKL_TPM.o [1]
+trackpoint              0x0000095d  0x1d80  Code  Gb  image_2.o [1]
+turn_flag               0x200008f0     0x4  Data  Gb  image_2.o [1]
+tx_buff                 0x20001484   0x5dc  Data  Gb  main.o [1]
+tx_buff1                0x20001a60   0x5dc  Data  Gb  main.o [1]
+typememo                0x20000900     0x8  Data  Gb  image_2.o [1]
+typememo_fifo           0x000005cd    0x62  Code  Gb  image_2.o [1]
+uSet                    0x1fffeab0     0x8  Data  Gb  motoII.o [1]
+uSetFollow              0x1fffeab8     0x8  Data  Gb  motoII.o [1]
+uSet_pre                0x1fffeac0     0x8  Data  Gb  motoII.o [1]
+uart_init               0x00008bb9   0x2c0  Code  Gb  MKL_uart.o [1]
+uart_putchar            0x00008e9d    0x34  Code  Gb  MKL_uart.o [1]
+vector_str              0x1fffe41c   0x1bc  Data  Gb  FIRE_MKL_conf.o [1]
+view_limit              0x20000a2c     0x4  Data  Gb  image_2.o [1]
+wdog_cfg                0x200045e4     0x4  Data  Lc  MKL_wdog.o [1]
+wdog_disable            0x0000cb35    0x16  Code  Gb  MKL_wdog.o [1]
+widthjudge              0x00003a79   0x166  Code  Gb  image_2.o [1]
+widthmeasure            0x0000051f    0x82  Code  Gb  image_2.o [1]
+write_frame_mark        0x00008865    0x12  Code  Gb  tool.o [1]
+write_vtor              0x0000bb9d    0x20  Code  Gb  misc.o [1]
+x                       0x200046d0     0x4  Data  Gb  motoII.o [1]
+xz                      0x200046d8     0x4  Data  Gb  motoII.o [1]
+z                       0x200046d4     0x4  Data  Gb  motoII.o [1]
+
+
+[1] = D:\程序备份\国赛\国赛4.1\COL_160\Prj\IAR\Debug\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  47 504 bytes of readonly  code memory
+   5 930 bytes of readonly  data memory
+  25 634 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
